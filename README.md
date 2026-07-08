@@ -1,11 +1,14 @@
 # 🚀 Team Availability Tracker
 
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,flask,python,sqlite,git,github,vscode&theme=light" />
+</p>
+
 A full-stack **Team Availability Tracker** built with **React, TypeScript, Flask, and SQLite**. The application allows users to monitor team availability, update member status through interactive toggles, and synchronize changes seamlessly between the frontend and backend database.
 
 ---
 
 ## 📌 Project Overview
-
 
 The application provides a modern dashboard for managing team availability. Users can view all team members, search and filter them, and update their availability status. Every toggle action updates the SQLite database through a Flask REST API and immediately reflects on the frontend.
 
@@ -170,10 +173,10 @@ http://localhost:5173
 
 ## 🔗 API Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/users` | Fetch all team members |
-| PUT | `/api/users/<id>` | Update a member's availability |
+| Method | Endpoint          | Description                    |
+| ------ | ----------------- | ------------------------------ |
+| GET    | `/api/users`      | Fetch all team members         |
+| PUT    | `/api/users/<id>` | Update a member's availability |
 
 ---
 
@@ -187,7 +190,7 @@ Example Request
 
 ```json
 {
-    "available": true
+  "available": true
 }
 ```
 
@@ -195,12 +198,12 @@ Example Request
 
 ## 📸 Screenshots
 
-### Dashboard
+## 📸 Dashboard Preview
 
-> Add your dashboard screenshot here
+![Team Availability Tracker Dashboard](assets/dashboard.png)
 
-```
-assets/dashboard.png
-```
+## 📸 Dashboard Preview
 
----
+<p align="center">
+  <img src="assets/dashboard.png" alt="Team Availability Tracker Dashboard" width="900"/>
+</p>
