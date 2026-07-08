@@ -200,10 +200,6 @@ Example Request
 
 ## 📸 Dashboard Preview
 
-![Team Availability Tracker Dashboard](assets/dashboard.png)
-
-## 📸 Dashboard Preview
-
 <p align="center">
   <img src="assets/dashboard.png" alt="Team Availability Tracker Dashboard" width="900"/>
 </p>
